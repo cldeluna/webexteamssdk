@@ -121,7 +121,7 @@ def webex_teams_webhook_events():
         # Get the POST data sent from Webex Teams
         json_data = request.json
         print("\n")
-        print("WEBHOOK POST RECEIVED:")
+        print("WEBHOOK POST RECEIVED: ")
         print(json_data)
         print("\n")
 
